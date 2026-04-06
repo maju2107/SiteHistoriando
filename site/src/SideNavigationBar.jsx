@@ -23,8 +23,57 @@ function SideNavigationBar() {
             {/*<span style={{fontSize:"30px", cursor:"pointer", position:"absolute", left:"0"}} onClick={() => setOpen(true)}>&#9776;</span>*/}
             <h2>Bem vindo!</h2>
             <p>Para aprender mais, sempre pesquise!</p>
-            
         </div>
+
+        <div className='row'>
+            <div id='banner'>
+
+            </div>
+        </div>
+
+        <div className='row'>
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+        </div>
+
+        <div className='row'>
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+            <div className='column'>
+            </div>
+
+        </div>
+
+
         </>
     )
 
