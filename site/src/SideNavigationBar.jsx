@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './SideNavigationBar.css';
 
 
 function SideNavigationBar() {
 
-    const [open, setOpen] = useState(false);
+    // const [open, setOpen] = useState(false);
 
     return (
         <>
@@ -39,6 +39,7 @@ function SideNavigationBar() {
             </div>
 
             <div className='column'>
+                <h2 id='title'>A chegada dos portugueses ao Brasil</h2>
             </div>
 
             <div className='column'>
