@@ -1,5 +1,6 @@
 import React from 'react';
 import './SideNavigationBar.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,7 +14,7 @@ function SideNavigationBar() {
 
         <div className='sidenav' /*style={{width: open? "250px" : "0"}}*/ >
             {/*<a className='closebtn' onClick={() => setOpen(false)}>&times;</a>*/}
-            <a href='#'><i className ="fa fa-fw fa-home" title='Home'></i></a>
+            <Link to="/"><i className ="fa fa-fw fa-home" title='Home'></i></Link>
             <a href='#'><i className ="fa fa-fw fa-search" title='Pesquisar'></i></a>
             <a href='#'><i className ="fa fa-fw fa-question" title='Perguntas'></i></a>
             <a href='#'><i className ="fa fa-fw fa-book" title='Conteúdo'></i></a>

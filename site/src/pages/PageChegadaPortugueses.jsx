@@ -3,7 +3,7 @@ import React from 'react';
 function PageChegadaPortugueses() {
 
     return (
-        <h1> Olá </h1>
+        <h1> A CHEGADA DOS PORTUGUESES AO BRASIL </h1>
     )
 }
 
