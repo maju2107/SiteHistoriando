@@ -2,6 +2,7 @@ import React from 'react';
 import './SideNavigationBar.css';
 
 
+
 function SideNavigationBar() {
 
     // const [open, setOpen] = useState(false);
@@ -19,61 +20,7 @@ function SideNavigationBar() {
             <a href='#'><i className ="fa fa-fw fa-map" title='Mapa Mental'></i></a>
         </div>
 
-        <div id='main' /*style={{marginLeft: open? "250px" : "0"}}*/ >
-            {/*<span style={{fontSize:"30px", cursor:"pointer", position:"absolute", left:"0"}} onClick={() => setOpen(true)}>&#9776;</span>*/}
-            <h2>Bem vindo!</h2>
-            <p>Para aprender mais, sempre pesquise!</p>
-        </div>
-
-        <div className='row'>
-            <div id='banner'>
-
-            </div>
-        </div>
-
-        <div className='row'>
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-                <h2 id='title'>A chegada dos portugueses ao Brasil</h2>
-            </div>
-
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-            </div>
-
-        </div>
-
-        <div className='row'>
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-            </div>
-
-            <div className='column'>
-            </div>
-
-        </div>
-
+        
 
         </>
     )
