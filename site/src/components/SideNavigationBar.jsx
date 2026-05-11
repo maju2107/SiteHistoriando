@@ -1,7 +1,6 @@
 import React from 'react';
-import './SideNavigationBar.css';
+import '../css/SideNavigationBar.css';
 import { Link } from 'react-router-dom';
-
 
 
 function SideNavigationBar() {
@@ -20,7 +19,6 @@ function SideNavigationBar() {
             <a href='#'><i className ="fa fa-fw fa-book" title='Conteúdo'></i></a>
             <a href='#'><i className ="fa fa-fw fa-map" title='Mapa Mental'></i></a>
         </div>
-
         
 
         </>

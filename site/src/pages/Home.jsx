@@ -1,6 +1,7 @@
 import React from 'react';
-import SideNavigationBar from '../SideNavigationBar';
+import SideNavigationBar from '../components/SideNavigationBar.jsx';
 import { Link } from 'react-router-dom';
+import '../css/Home.css'
 
 function Home() {
 
