@@ -1,5 +1,11 @@
 .paragraph {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
     
+}
+
+.paragraph p {
     text-align: left;
-    margin-left: 160px;
+    line-height: 2.5;
+    font-size: 18px;
 }
