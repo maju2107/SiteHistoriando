@@ -5,6 +5,9 @@
     background-color: #d1cfcf;
     margin-right: 20px;
     border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
     align-items: center;
     
 }
