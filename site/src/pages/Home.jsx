@@ -13,14 +13,14 @@ function Home() {
             <p>Para aprender mais, sempre pesquise!</p>
         </div>
 
-        <div className='row'>
+        <div className='container-sm'>
             <div id='banner'>
 
             </div>
         </div>
 
-        <div className='row'>
-            <div className='column'>
+        <div className='conatainer'>
+            <div className='row g-4'>
             </div>
 
             <div className='column'>

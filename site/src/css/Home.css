@@ -1,3 +1,4 @@
+/* 
 .column {
     float: left;
     width: 15%;
@@ -10,7 +11,7 @@
     justify-content: center;
     align-items: center;
     
-}
+} */
 
 #title {
     color: #19063a;
@@ -18,12 +19,11 @@
 
 #banner {
     background-color: #d1cfcf;
-    width: 99%;
-    height:180%;
+    height: 180px;
     border-radius: 10px;
 }
 
-.row {
+/* .row {
     margin-left: 150px;
     height: 100px;
     margin-bottom: 150px;
@@ -33,7 +33,7 @@
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 
 #main {

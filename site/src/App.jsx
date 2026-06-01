@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './css/App.css';
 import SideNavigationBar from './components/SideNavigationBar';
 import PageChegadaPortugueses from './pages/PageChegadaPortugueses';
 import Home from './pages/Home';
