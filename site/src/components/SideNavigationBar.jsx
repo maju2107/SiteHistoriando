@@ -2,7 +2,6 @@ import React from 'react';
 import '../css/SideNavigationBar.css';
 import { Link } from 'react-router-dom';
 
-
 function SideNavigationBar() {
 
     // const [open, setOpen] = useState(false);
@@ -20,7 +19,6 @@ function SideNavigationBar() {
             <a href='#'><i className ="fa fa-fw fa-map" title='Mapa Mental'></i></a>
         </div>
         
-
         </>
     )
 

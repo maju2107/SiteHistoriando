@@ -42,11 +42,3 @@
     position: relative;
 }
 
-@media screen and (max-height: 450px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-        
-    }
-}
