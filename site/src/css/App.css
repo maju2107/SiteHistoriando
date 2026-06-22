@@ -9,3 +9,11 @@
         margin-left: 0;
     }
 }
+
+/* impedir que qualquer elemento ou que o próprio bootstrap ultrapasse o limite da page*/
+html,
+body,
+#root {
+    overflow-x: hidden;
+    max-width: 100%;
+} 
